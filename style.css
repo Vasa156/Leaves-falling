@@ -1,0 +1,100 @@
+.leaf1, .leaf2, .leaf3, .leaf4, .leaf5, .leaf6, .leaf7, .leaf8, .leaf9, .leaf10{
+        width: 25px;
+        height: 50px;
+        border-radius: 0 55px;
+    
+    }
+    .leaf1{
+        background-color: green;
+        animation: down 3.5s linear infinite .9s;
+        position: absolute;
+        left: 200px;
+
+    }
+    .leaf2{
+
+        background-color: green;
+        animation: down 2.8s linear infinite 1.0s;
+        position: absolute;
+        left: 450px;
+        
+    }
+    .leaf3{
+        background-color: green;
+        animation: down 2.3s linear infinite .5s;
+        position: absolute;
+        left: 650px;
+
+    }
+    .leaf4{
+
+        background-color: green;
+        animation: down 2.5s linear infinite 1.7s;
+        position: absolute;
+        left: 580px;
+    }
+    .leaf5{
+        background-color: green;
+        animation: down 3.4s linear infinite 1.3s;
+        position: absolute;
+        left: 1300px;
+    }
+    .leaf6{
+        background-color: green;
+        animation: down 1.4s linear infinite 2s;
+        position: absolute;
+        left: 50px;
+
+    }
+
+    @keyframes down{
+        0%{top: -150px; transform: rotate(0deg) rotateY(-90deg); opacity:0.5 ;}
+        100%{top: 450px; transform: rotate(360deg) rotateY(-180deg); opacity: 0.3;}
+    }
+    
+    .leaf7{
+        background-color: green;
+        animation: down 1.4s linear infinite 2.5s;
+        position: absolute;
+        left: 750px;
+
+    }
+    .leaf8{
+        background-color: green;
+        animation: down 1.4s linear infinite 1.9s;
+        position: absolute;
+        left: 850px;
+
+    }
+    .leaf9{
+        background-color: green;
+        animation: down 1.4s linear infinite 1.4s;
+        position: absolute;
+        left: 1090px;
+
+    }
+    .leaf10{
+        background-color: green;
+        animation: down 1.4s linear infinite 2.5s;
+        position: absolute;
+        left: 300px;
+
+    }
+    .leaf11{
+        background-color: green;
+        animation: down 1.4s linear infinite 3s;
+        position: absolute;
+        left: 980px;
+
+    }
+    .leaf12{
+        background-color: green;
+        animation: down 1.4s linear infinite 4s;
+        position: absolute;
+        left: 1200px;
+
+
+    }
+    body{
+        background-color: black;
+    }
